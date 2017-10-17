@@ -13,7 +13,7 @@ $background-grey: #E5E5E5;
 $background-light-grey: #F1F1F1;
 
 // Fonts
-$main-font: Helvetica;
+$main-font: 200 14px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 // Gaps
 $xxs-gap: 10px;
@@ -22,3 +22,8 @@ $s-gap: 35px;
 $m-gap: 50px;
 $l-gap: 80px;
 $xl-gap: 140px;
+
+// Images
+$img-background: url("public/images/montaje_barco.png");
+$img-check: url("/public/images/Shape Copy 8.svg");
+$img-cross: url("/public/images/Close.svg");

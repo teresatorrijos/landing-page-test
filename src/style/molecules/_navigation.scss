@@ -25,6 +25,9 @@
   padding-top: $m-gap;
   h1 {
     @include text-43($color-white);
+    span {
+      font-weight: normal;
+    }
   }
 
   ul li {

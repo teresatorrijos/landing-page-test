@@ -1,0 +1,36 @@
+.icon-check {
+  height: 25px;
+  width: 25px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  z-index: 100;
+
+  &.green {
+    background-color: $color-green;
+    background-image: $img-check;
+  }
+  &.red {
+    background-color: $color-red;
+    background-image: $img-cross;
+  }
+}
+
+.circle {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: $background-grey;
+  @include text-24($color-white);
+
+  i {
+    margin: $xxs-gap auto;
+  }
+
+  &.blue {
+    background-color: $icon-blue;
+  }
+}

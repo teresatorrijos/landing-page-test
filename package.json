@@ -8,7 +8,7 @@
     "serve": "webpack-dev-server --progress --colors"
   },
   "author": "Teresa Torrijos",
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.14.0",
     "babel-loader": "^6.2.5",

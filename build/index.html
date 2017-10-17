@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <title>Document</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="/build/app.js"></script>
@@ -52,11 +53,11 @@
         </ul>
       </nav>
       <article class="row main-label">
-        <h1>WE MOVE <strong>BUSSINESS CARGO</strong> <br> AROUND THE WORLD</h1>
+        <h1>WE MOVE <span>BUSSINESS CARGO</span> <br> AROUND THE WORLD</h1>
         <ul>
-          <li><span class="glyphicon glyphicon-record"></span>Best prices with total transparency</li>
-          <li><span class="glyphicon glyphicon-record"></span>Easy-to-fill-process, and we help you out!</li>
-          <li><span class="glyphicon glyphicon-record"></span>Login to our Client Area and track your cargo</li>
+          <li><img src="/public/images/Shape.svg"> Best prices with total transparency </li>
+          <li><img src="/public/images/Shape.svg"> Easy-to-fill-process, and we help you out!</li>
+          <li><img src="/public/images/Shape.svg"> Login to our Client Area and track your cargo</li>
         </ul>
       </article>
       <article class="search-box">
@@ -84,9 +85,7 @@
                   <label class="filter-col">Aprox departure date:</label>
                   <input type="text" class="form-control input-sm" placeholder="Los Angeles">
                 </div>
-
                 <button type="submit" class="btn btn-get">GET A QUOTE</button>
-
               </form>
             </div>
           </div>
@@ -99,28 +98,40 @@
     <section class="container-fluid services">
       <div class="container">
         <div class="col-xs-3 column">
-          <img src="" alt="">
+          <figure>
+            <img src="/public/images/Oval 12 Copy 3.svg">
+            <img class="icon" src="/public/images/Group Copy 8.svg">
+          </figure>
           <h3>Ocean Freight</h3>
           <p class="autofill"></p>
           <p class="advantages">What do we do for you & <br> advantages <br> FCL (Full Containers)</p>
           <button type="button" class="btn btn-details">MORE DETAILS</button>
         </div>
         <div class="col-xs-3 column">
-          <img src="" alt="">
+          <figure>
+            <img src="/public/images/Oval 12 Copy 3.svg">
+            <img class="icon" src="/public/images/Fill 115 Copy.svg">
+          </figure>
           <h3>Ocean Freight</h3>
           <p class="autofill"></p>
           <p class="advantages">What do we do for you & <br> advantages <br> FCL (Full Containers)</p>
           <button type="button" class="btn btn-details">MORE DETAILS</button>
         </div>
         <div class="col-xs-3 column">
-          <img src="" alt="">
+          <figure>
+            <img src="/public/images/Oval 12 Copy 3.svg">
+            <img class="icon" src="/public/images/Fill 115 Copy.svg">
+          </figure>
           <h3>Ocean Freight</h3>
           <p class="autofill"></p>
           <p class="advantages">What do we do for you & <br> advantages <br> FCL (Full Containers)</p>
           <button type="button" class="btn btn-details">MORE DETAILS</button>
         </div>
         <div class="col-xs-3 column">
-          <img src="" alt="">
+          <figure>
+            <img src="/public/images/Oval 12 Copy 3.svg">
+            <img class="icon" src="/public/images/Group Copy 7.svg">
+          </figure>
           <h3>Ocean Freight</h3>
           <p class="autofill"></p>
           <p class="advantages">What do we do for you & <br> advantages <br> FCL (Full Containers)</p>
@@ -139,38 +150,51 @@
         <button type="button" class="btn btn-simple">DAT</button>
         <button type="button" class="btn btn-simple">DAP</button>
       </div>
-      <div class="row">CIF: Cost, Insurance & Freight</div>
+      <p>CIF: Cost, Insurance & Freight</p>
       <div class="row">
-        <div class="col-xs-3">
-          <figure>
-            <img src="/public/images/Group Copy.svg" alt="service">
-          </figure>
-          <p class="autofill"></p>
-
+        <div class="col-xs-3 diagram">
+          <img src="/public/images/Group Copy.svg" alt="service">
+          <article class="text">
+            <p class="autofill"></p>
+            <div class="icon-check green"></div>
+          </article>
         </div>
-
-        <div class="col-xs-3">
-          <figure>
-            <img src="/public/images/Group Copy 4.svg" alt="service">
-          </figure>
-          <p class="autofill"></p>
-
+        <div class="col-xs-3 diagram">
+          <img src="/public/images/Group Copy 4.svg" alt="service">
+          <article class="text">
+            <p class="autofill"></p>
+            <div class="icon-check green"></div>
+          </article>
         </div>
-
-        <div class="col-xs-3">
-          <figure>
-            <img src="/public/images/Group Copy.svg" alt="service">
-          </figure>
-          <p class="autofill"></p>
-          <div class="at-check green"></div>
+        <div class="col-xs-3 diagram">
+          <img src="/public/images/Group Copy.svg" alt="service">
+          <article class="text">
+            <p class="autofill"></p>
+            <div class="icon-check green"></div>
+          </article>
         </div>
-
-        <div class="col-xs-3">
-          <figure>
-            <img src="/public/images/Group Copy 4.svg" alt="service">
-          </figure>
-          <p class="autofill"></p>
-
+        <div class="col-xs-3 diagram">
+          <img src="/public/images/Group Copy 4.svg" alt="service">
+          <article class="text">
+            <p class="autofill"></p>
+            <div class="icon-check red"></div>
+          </article>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-5 contact">
+          USA +1 305 964 8731   SPAIN +34 91 198 09 90
+        </div>
+        <div class="social">
+          <div class="circle blue">
+            <i class="fa fa-twitter"></i>
+          </div>
+          <div class="circle">
+            <i class="fa fa-facebook"></i>
+          </div>
+          <div class="circle">
+            <i class="fa fa-linkedin"></i>
+          </div>
         </div>
       </div>
     </section>
@@ -202,7 +226,7 @@
 
   <footer class="container-fluid">
     <div class="container">
-
+  <img src="/public/images/Bitmap.png" alt="brand">
     </div>
   </footer>
 

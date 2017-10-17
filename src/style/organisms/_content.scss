@@ -1,5 +1,6 @@
-.column{
+.column {
   text-align: center;
+
   h3 {
     @include text-21($dark-grey);
   }
@@ -21,6 +22,7 @@
 .chart {
   height: 791px;
   text-align: center;
+
   h2 {
     @include text-40($dark-grey);
     padding-top: $l-gap;
@@ -29,21 +31,65 @@
   .btn-group {
     padding-bottom: $xxs-gap;
   }
+
+  p {
+    @include text-16($dark-grey);
+  }
+
+  .row {
+    padding-top: $l-gap;
+  }
 }
 
 .services {
   height: 472px;
   background-color: $background-light-grey;
+
+  figure {
+    padding-top: $s-gap;
+    padding-bottom: $xxs-gap;
+    display: block;
+    position: relative;
+
+    .icon {
+      position: absolute;
+      top: 50%;
+      left: 45%;
+    }
+  }
 }
 
 .contents {
   padding-top: $s-gap;
   height: 368px;
+
   h3 {
     @include text-14($color-blue);
   }
+
   .autofill {
     @include text-14($dark-grey);
     line-height: 2.1;
   }
+}
+
+.diagram {
+  height: 250px;
+  position: relative;
+
+  .text {
+    position: absolute;
+    bottom: 20px;
+  }
+}
+
+.contact {
+  border: 1px $dark-grey solid;
+  height: 55px;
+  @include text-16($dark-grey);
+  line-height: 3.5;
+}
+
+.social {
+  float: right;
 }
