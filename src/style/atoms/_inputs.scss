@@ -2,6 +2,8 @@
   height: 55px;
   width: 235px;
   @include text-16($dark-grey);
+  margin-top: $xxs-gap;
+  margin-bottom: $xxs-gap;
 }
 
 .filter-col {

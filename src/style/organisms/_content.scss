@@ -62,6 +62,7 @@
 .contents {
   padding-top: $s-gap;
   height: 368px;
+  position: relative;
 
   h3 {
     @include text-14($color-blue);
@@ -88,8 +89,36 @@
   height: 55px;
   @include text-16($dark-grey);
   line-height: 3.5;
+  img {
+    padding-right: $xxs-gap;
+  }
 }
 
 .social {
   float: right;
+}
+
+.footer-logo {
+  float: right;
+  opacity: 0.6;
+}
+
+.tracking {
+  @include text-14($color-blue);
+  position: absolute;
+  bottom: $m-gap;
+}
+
+.form-inline {
+  @include text-14($dark-grey);
+  padding-top: $xxs-gap;
+  width: 80%;
+  margin: auto;
+  .form-group {
+    padding-right: $xs-gap;
+  }
+  button {
+    margin-right: $xs-gap;
+    margin-top: $xxs-gap;
+  }
 }
