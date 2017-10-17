@@ -1,0 +1,9 @@
+.input-sm {
+  height: 55px;
+  width: 235px;
+  @include text-16($dark-grey);
+}
+
+.filter-col {
+  display: block;
+}

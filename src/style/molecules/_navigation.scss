@@ -1,0 +1,40 @@
+.main-nav {
+  padding-top: $s-gap;
+}
+
+.navbar-default {
+  background: transparent;
+  border: none;
+  color: $color-orange;
+}
+
+.navbar-default {
+  margin: 0;
+
+  .navbar-brand,
+  .navbar-nav li a {
+    @include text-14($color-white);
+  }
+
+  .navbar-nav .it-actived {
+    @include text-14($color-orange);
+  }
+}
+
+.main-label {
+  padding-top: $m-gap;
+  h1 {
+    @include text-43($color-white);
+  }
+
+  ul li {
+    @include text-15($color-white);
+    display: inline-block;
+    padding-right: $s-gap;
+    padding-top: $xxs-gap;
+  }
+}
+
+.search-box{
+  padding-top: $m-gap;
+}

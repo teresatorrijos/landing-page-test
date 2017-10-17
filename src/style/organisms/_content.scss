@@ -1,0 +1,49 @@
+.column{
+  text-align: center;
+  h3 {
+    @include text-21($dark-grey);
+  }
+
+  .advantages {
+    @include text-15($color-blue);
+    line-height: 2.5;
+    margin-bottom: $s-gap;
+  }
+}
+
+.autofill {
+  @include text-16($dark-grey);
+  line-height: 1.7;
+  margin-top: $xxs-gap;
+  margin-bottom: $xs-gap;
+}
+
+.chart {
+  height: 791px;
+  text-align: center;
+  h2 {
+    @include text-40($dark-grey);
+    padding-top: $l-gap;
+  }
+
+  .btn-group {
+    padding-bottom: $xxs-gap;
+  }
+}
+
+.services {
+  height: 472px;
+  background-color: $background-light-grey;
+}
+
+.contents {
+  padding-top: $s-gap;
+  height: 368px;
+  h3 {
+    @include text-14($color-blue);
+  }
+  .autofill {
+    @include text-14($dark-grey);
+    line-height: 2.1;
+  }
+}
